@@ -10,3 +10,31 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+.metadata
+bin/
+target/
+tmp/
+runtimes/
+*.tmp
+*.bak
+*.log
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+maven-eclipse.xml
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# STS (Spring Tool Suite)
+.springBeans
